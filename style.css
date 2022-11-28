@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #0f6b90;
+  }
+  
+  .eyes {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    text-align: center;
+  }
+  .eye {
+    width: 240px;
+    height: 120px;
+    background: #fff;
+    display: inline-block;
+    margin: 40px;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+  }
+  .ball {
+    width: 80px;
+    height: 80px;
+    background: rgb(41, 16, 132);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+  }
+
+  .frame {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    top: 20px;
+    right: 20px;
+    width: fit-content;
+    height: fit-content;
+    z-index: 2;
+    background-color: rgba(49, 63, 74, 0.746);
+    border-radius: 10px;
+    font-family: "Roboto", sans-serif;
+  }
+  
+  .title {
+    display: flex;
+    justify-content: center;
+    color: rgb(109, 216, 59);
+    font-size: 1.55em;
+    font-family: "Roboto", sans-serif;
+  }
+  
+  .content {
+    display: flex;
+    padding-top: 10px;
+    justify-content: center;
+    text-align: center;
+    color: #f3ecff;
+    line-height: 1.5em;
+  }
+  
+  .stylized-link {
+    outline: none;
+    font-size: 1.2em;
+    text-decoration: none;
+    padding: 2px 1px 0;
+  }
+  
+  .stylized-link:link {
+    color: blue;
+  }
+  
+  .stylized-link:visited {
+    color: rgb(191, 234, 62);
+  }
+  
+  .stylized-link:focus,
+  .stylized-link:hover {
+    border-bottom: 1px solid;
+  }
+  
+  .stylized-link:active {
+    color: red;
+  }
+  
+  .stylized-link[href^="http"] {
+    background-size: 16px 16px;
+    padding-right: 19px;
+    /* Color for SVG */
+    /* filter tool => https://codepen.io/sosuke/pen/Pjoqqp */
+    filter: invert(92%) sepia(3%) saturate(1398%) hue-rotate(188deg) brightness(102%) contrast(105%);
+  }
