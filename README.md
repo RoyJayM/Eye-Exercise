@@ -7,7 +7,7 @@ Move your cursor around the web page, the eyes should be able to foollow through
 - Dynamic Js to make the eye move automatically based on user mouse cursor.
 - Create a click option to change the eye colors
 <h1>License</h1>
-<b>MIT License</b>
+<b>MIT License - https://opensource.org/licenses/MIT</b>
 <p>Copyright © 2022 Roy Mutsikwi
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
