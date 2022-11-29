@@ -1,8 +1,10 @@
 # Eye-Exercise
-<h1>Usage</h1>
+<h1>How it Works</h1>
 Open the index.html file<br>
 Move your cursor around the web page, the eyes should be able to foollow through to whichevr derection you go as long as you are within the web page.
-<img src="eyes.jpg" width="300" style="max-width: 100%;">
+<img src="eyes.jpg" width="300" style="max-width: 100%;"<br>
+<h1>Live Page</h1>
+<a href="https://royjaym.github.io/Eye-Exercise/">See it here</a>
 <h1>Future Improvements</h1>
 - Dynamic Js to make the eye move automatically based on user mouse cursor.
 - Create a click option to change the eye colors
