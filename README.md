@@ -1,6 +1,6 @@
 # Eye-Exercise
 <h1>Usage</h1>
-Open the index.html file
+Open the index.html file<br>
 Move your cursor around the web page, the eyes should be able to foollow through to whichevr derection you go as long as you are within the web page.
 <img src="eyes.jpg" width="300" style="max-width: 100%;">
 <h1>Future Improvements</h1>
